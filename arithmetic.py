@@ -1,0 +1,8 @@
+#print(2+4/2+2//4-5+6*7)
+weight=input("Enter your weight in kg: ")
+height=input("Enter your height in meters: ")
+new_height=int(height)*int(height)
+print(type(weight))
+print(type(height))
+BMI=int(weight)/int(new_height)
+print(BMI)
